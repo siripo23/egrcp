@@ -1,0 +1,28 @@
+{
+  "risks": [
+    { "id": "R001", "title": "Vendor Financial Instability", "category": "Vendor", "likelihood": 4, "impact": 5, "score": 20, "status": "open", "owner": "Bob Smith", "vendorId": "v004", "createdAt": "2026-05-01" },
+    { "id": "R002", "title": "Expired Safety Certification", "category": "Compliance", "likelihood": 5, "impact": 4, "score": 20, "status": "open", "owner": "Emma Davis", "vendorId": "v004", "createdAt": "2026-05-05" },
+    { "id": "R003", "title": "Data Breach Risk - Cloud Provider", "category": "Technology", "likelihood": 2, "impact": 5, "score": 10, "status": "mitigated", "owner": "Alice Johnson", "vendorId": "v005", "createdAt": "2026-03-10" },
+    { "id": "R004", "title": "Logistics Delivery Delays", "category": "Operational", "likelihood": 3, "impact": 3, "score": 9, "status": "open", "owner": "Bob Smith", "vendorId": "v002", "createdAt": "2026-04-15" },
+    { "id": "R005", "title": "Regulatory Non-Compliance", "category": "Compliance", "likelihood": 3, "impact": 5, "score": 15, "status": "open", "owner": "Emma Davis", "vendorId": "v006", "createdAt": "2026-05-10" },
+    { "id": "R006", "title": "Single Vendor Dependency", "category": "Strategic", "likelihood": 2, "impact": 4, "score": 8, "status": "accepted", "owner": "Alice Johnson", "vendorId": "v001", "createdAt": "2026-02-20" },
+    { "id": "R007", "title": "Contract Overspend", "category": "Financial", "likelihood": 3, "impact": 3, "score": 9, "status": "mitigated", "owner": "Bob Smith", "vendorId": null, "createdAt": "2026-01-15" },
+    { "id": "R008", "title": "GDPR Violation - Data Transfer", "category": "Compliance", "likelihood": 2, "impact": 5, "score": 10, "status": "open", "owner": "Emma Davis", "vendorId": "v005", "createdAt": "2026-04-28" }
+  ],
+  "trends": [
+    { "month": "Jan", "open": 5, "mitigated": 2, "accepted": 1 },
+    { "month": "Feb", "open": 6, "mitigated": 3, "accepted": 1 },
+    { "month": "Mar", "open": 7, "mitigated": 4, "accepted": 2 },
+    { "month": "Apr", "open": 8, "mitigated": 4, "accepted": 2 },
+    { "month": "May", "open": 9, "mitigated": 5, "accepted": 2 },
+    { "month": "Jun", "open": 8, "mitigated": 5, "accepted": 2 }
+  ],
+  "distribution": [
+    { "name": "Vendor", "value": 3 },
+    { "name": "Compliance", "value": 3 },
+    { "name": "Technology", "value": 1 },
+    { "name": "Operational", "value": 1 },
+    { "name": "Strategic", "value": 1 },
+    { "name": "Financial", "value": 1 }
+  ]
+}

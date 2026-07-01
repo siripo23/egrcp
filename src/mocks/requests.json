@@ -1,0 +1,160 @@
+[
+  {
+    "id": "REQ-001",
+    "title": "Laptop Procurement for Engineering Team",
+    "description": "Request for 15 laptops for new engineering hires joining in Q3 2026.",
+    "department": "Engineering",
+    "requestedBy": "Carol White",
+    "requestedById": "u003",
+    "vendor": "TechSupply Corp",
+    "vendorId": "v001",
+    "amount": 37500,
+    "priority": "high",
+    "status": "pending",
+    "category": "IT Equipment",
+    "createdAt": "2026-06-01T09:00:00Z",
+    "updatedAt": "2026-06-01T09:00:00Z",
+    "dueDate": "2026-06-20",
+    "attachments": [
+      { "id": "a1", "name": "Laptop Specs.pdf", "size": "245KB", "uploadedAt": "2026-06-01T09:05:00Z" },
+      { "id": "a2", "name": "Budget Approval.xlsx", "size": "88KB", "uploadedAt": "2026-06-01T09:06:00Z" }
+    ],
+    "approvalHistory": [],
+    "comments": [
+      { "id": "c1", "author": "Carol White", "text": "Urgent requirement for Q3 onboarding.", "createdAt": "2026-06-01T09:10:00Z" }
+    ],
+    "auditLogs": [
+      { "id": "al1", "action": "Request Created", "user": "Carol White", "timestamp": "2026-06-01T09:00:00Z" }
+    ]
+  },
+  {
+    "id": "REQ-002",
+    "title": "Office Furniture - HQ Expansion",
+    "description": "Chairs, desks and partitions for the new floor at headquarters.",
+    "department": "Facilities",
+    "requestedBy": "Carol White",
+    "requestedById": "u003",
+    "vendor": "OfficeNation Inc",
+    "vendorId": "v003",
+    "amount": 28000,
+    "priority": "medium",
+    "status": "approved",
+    "category": "Facilities",
+    "createdAt": "2026-05-15T10:00:00Z",
+    "updatedAt": "2026-05-18T14:00:00Z",
+    "dueDate": "2026-06-10",
+    "attachments": [
+      { "id": "a3", "name": "Floor Plan.pdf", "size": "1.2MB", "uploadedAt": "2026-05-15T10:05:00Z" }
+    ],
+    "approvalHistory": [
+      { "id": "ap1", "action": "Approved", "user": "Bob Smith", "role": "Procurement Manager", "comment": "Budget within limit. Approved.", "timestamp": "2026-05-18T14:00:00Z" }
+    ],
+    "comments": [],
+    "auditLogs": [
+      { "id": "al2", "action": "Request Created", "user": "Carol White", "timestamp": "2026-05-15T10:00:00Z" },
+      { "id": "al3", "action": "Request Approved", "user": "Bob Smith", "timestamp": "2026-05-18T14:00:00Z" }
+    ]
+  },
+  {
+    "id": "REQ-003",
+    "title": "Cloud Infrastructure Upgrade",
+    "description": "Annual cloud subscription renewal and capacity upgrade for CloudVault.",
+    "department": "IT",
+    "requestedBy": "Alice Johnson",
+    "requestedById": "u001",
+    "vendor": "CloudVault Services",
+    "vendorId": "v005",
+    "amount": 120000,
+    "priority": "high",
+    "status": "under_review",
+    "category": "Technology",
+    "createdAt": "2026-05-28T11:00:00Z",
+    "updatedAt": "2026-06-02T09:00:00Z",
+    "dueDate": "2026-06-15",
+    "attachments": [],
+    "approvalHistory": [
+      { "id": "ap2", "action": "Sent Back", "user": "Bob Smith", "role": "Procurement Manager", "comment": "Need detailed vendor quote before approval.", "timestamp": "2026-06-02T09:00:00Z" }
+    ],
+    "comments": [],
+    "auditLogs": [
+      { "id": "al4", "action": "Request Created", "user": "Alice Johnson", "timestamp": "2026-05-28T11:00:00Z" },
+      { "id": "al5", "action": "Sent Back for Review", "user": "Bob Smith", "timestamp": "2026-06-02T09:00:00Z" }
+    ]
+  },
+  {
+    "id": "REQ-004",
+    "title": "Security Audit Services",
+    "description": "Engage external auditors for annual IT security audit.",
+    "department": "IT",
+    "requestedBy": "Alice Johnson",
+    "requestedById": "u001",
+    "vendor": "TechSupply Corp",
+    "vendorId": "v001",
+    "amount": 45000,
+    "priority": "high",
+    "status": "rejected",
+    "category": "Services",
+    "createdAt": "2026-04-10T08:00:00Z",
+    "updatedAt": "2026-04-15T16:00:00Z",
+    "dueDate": "2026-05-01",
+    "attachments": [],
+    "approvalHistory": [
+      { "id": "ap3", "action": "Rejected", "user": "Bob Smith", "role": "Procurement Manager", "comment": "Budget exceeded for Q2. Re-submit in Q3.", "timestamp": "2026-04-15T16:00:00Z" }
+    ],
+    "comments": [],
+    "auditLogs": [
+      { "id": "al6", "action": "Request Created", "user": "Alice Johnson", "timestamp": "2026-04-10T08:00:00Z" },
+      { "id": "al7", "action": "Request Rejected", "user": "Bob Smith", "timestamp": "2026-04-15T16:00:00Z" }
+    ]
+  },
+  {
+    "id": "REQ-005",
+    "title": "Warehouse Equipment - Mumbai",
+    "description": "Forklifts and racking systems for new Mumbai warehouse.",
+    "department": "Operations",
+    "requestedBy": "Carol White",
+    "requestedById": "u003",
+    "vendor": "BuildRight Construction",
+    "vendorId": "v004",
+    "amount": 310000,
+    "priority": "medium",
+    "status": "escalated",
+    "category": "Equipment",
+    "createdAt": "2026-05-05T09:00:00Z",
+    "updatedAt": "2026-06-01T11:00:00Z",
+    "dueDate": "2026-06-30",
+    "attachments": [],
+    "approvalHistory": [],
+    "comments": [],
+    "auditLogs": [
+      { "id": "al8", "action": "Request Created", "user": "Carol White", "timestamp": "2026-05-05T09:00:00Z" },
+      { "id": "al9", "action": "Escalated due to inactivity", "user": "System", "timestamp": "2026-06-01T11:00:00Z" }
+    ]
+  },
+  {
+    "id": "REQ-006",
+    "title": "Marketing Materials Printing",
+    "description": "Brochures and banners for upcoming product launch.",
+    "department": "Marketing",
+    "requestedBy": "Carol White",
+    "requestedById": "u003",
+    "vendor": "OfficeNation Inc",
+    "vendorId": "v003",
+    "amount": 12000,
+    "priority": "low",
+    "status": "approved",
+    "category": "Marketing",
+    "createdAt": "2026-05-20T14:00:00Z",
+    "updatedAt": "2026-05-22T10:00:00Z",
+    "dueDate": "2026-06-05",
+    "attachments": [],
+    "approvalHistory": [
+      { "id": "ap4", "action": "Approved", "user": "Bob Smith", "role": "Procurement Manager", "comment": "Standard marketing spend.", "timestamp": "2026-05-22T10:00:00Z" }
+    ],
+    "comments": [],
+    "auditLogs": [
+      { "id": "al10", "action": "Request Created", "user": "Carol White", "timestamp": "2026-05-20T14:00:00Z" },
+      { "id": "al11", "action": "Request Approved", "user": "Bob Smith", "timestamp": "2026-05-22T10:00:00Z" }
+    ]
+  }
+]

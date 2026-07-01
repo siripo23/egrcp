@@ -1,0 +1,62 @@
+[
+  {
+    "id": "u001",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@company.com",
+    "password": "Admin@123",
+    "role": "admin",
+    "department": "IT",
+    "avatar": "",
+    "status": "active",
+    "createdAt": "2024-01-10T08:00:00Z",
+    "lastLogin": "2026-06-04T09:15:00Z"
+  },
+  {
+    "id": "u002",
+    "name": "Bob Smith",
+    "email": "bob.smith@company.com",
+    "password": "Manager@123",
+    "role": "manager",
+    "department": "Procurement",
+    "avatar": "",
+    "status": "active",
+    "createdAt": "2024-02-15T08:00:00Z",
+    "lastLogin": "2026-06-04T11:30:00Z"
+  },
+  {
+    "id": "u003",
+    "name": "Carol White",
+    "email": "carol.white@company.com",
+    "password": "Employee@123",
+    "role": "employee",
+    "department": "Finance",
+    "avatar": "",
+    "status": "active",
+    "createdAt": "2024-03-20T08:00:00Z",
+    "lastLogin": "2026-06-03T14:00:00Z"
+  },
+  {
+    "id": "u004",
+    "name": "David Brown",
+    "email": "david.brown@company.com",
+    "password": "Auditor@123",
+    "role": "auditor",
+    "department": "Audit",
+    "avatar": "",
+    "status": "active",
+    "createdAt": "2024-04-01T08:00:00Z",
+    "lastLogin": "2026-06-02T16:45:00Z"
+  },
+  {
+    "id": "u005",
+    "name": "Emma Davis",
+    "email": "emma.davis@company.com",
+    "password": "Compliance@123",
+    "role": "compliance",
+    "department": "Legal",
+    "avatar": "",
+    "status": "active",
+    "createdAt": "2024-05-10T08:00:00Z",
+    "lastLogin": "2026-06-04T10:00:00Z"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  { "id": "n001", "type": "approval", "priority": "high", "title": "Action Required: REQ-001 Pending Approval", "message": "Laptop Procurement request from Carol White is awaiting your approval.", "read": false, "createdAt": "2026-06-05T08:30:00Z", "link": "/procurement/REQ-001" },
+  { "id": "n002", "type": "risk", "priority": "high", "title": "High Risk Alert: Vendor BuildRight Construction", "message": "Safety certification expired. Immediate review required.", "read": false, "createdAt": "2026-06-05T07:00:00Z", "link": "/risk" },
+  { "id": "n003", "type": "compliance", "priority": "medium", "title": "Compliance Issue: FastFreight Co", "message": "Export license has expired. Vendor suspended.", "read": false, "createdAt": "2026-06-04T15:00:00Z", "link": "/compliance" },
+  { "id": "n004", "type": "procurement", "priority": "medium", "title": "REQ-003 Sent Back for Revision", "message": "Cloud Infrastructure Upgrade request needs vendor quote attachment.", "read": true, "createdAt": "2026-06-02T09:05:00Z", "link": "/procurement/REQ-003" },
+  { "id": "n005", "type": "system", "priority": "low", "title": "REQ-002 Approved Successfully", "message": "Office Furniture request has been approved by Bob Smith.", "read": true, "createdAt": "2026-05-18T14:05:00Z", "link": "/procurement/REQ-002" },
+  { "id": "n006", "type": "escalation", "priority": "high", "title": "Escalation: REQ-005 Overdue", "message": "Warehouse Equipment request has been escalated due to 30 days inactivity.", "read": false, "createdAt": "2026-06-01T11:05:00Z", "link": "/approval" },
+  { "id": "n007", "type": "vendor", "priority": "medium", "title": "Vendor Certification Expiring Soon", "message": "GlobalLogistics ISO 9001 certificate expires in 117 days.", "read": true, "createdAt": "2026-06-01T08:00:00Z", "link": "/vendors/v002" }
+]

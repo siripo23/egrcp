@@ -1,0 +1,35 @@
+{
+  "procurement": {
+    "monthly": [
+      { "month": "Jan", "total": 8, "approved": 5, "rejected": 1, "pending": 2, "spend": 145000 },
+      { "month": "Feb", "total": 10, "approved": 7, "rejected": 2, "pending": 1, "spend": 210000 },
+      { "month": "Mar", "total": 12, "approved": 9, "rejected": 1, "pending": 2, "spend": 330000 },
+      { "month": "Apr", "total": 9, "approved": 6, "rejected": 2, "pending": 1, "spend": 180000 },
+      { "month": "May", "total": 14, "approved": 10, "rejected": 2, "pending": 2, "spend": 420000 },
+      { "month": "Jun", "total": 6, "approved": 2, "rejected": 1, "pending": 3, "spend": 552500 }
+    ],
+    "departmentSpend": [
+      { "department": "IT", "spend": 570000 },
+      { "department": "Engineering", "spend": 37500 },
+      { "department": "Facilities", "spend": 28000 },
+      { "department": "Operations", "spend": 310000 },
+      { "department": "Marketing", "spend": 12000 },
+      { "department": "Finance", "spend": 95000 }
+    ]
+  },
+  "compliance": {
+    "monthly": [
+      { "month": "Jan", "compliant": 90, "violations": 2, "pending": 5 },
+      { "month": "Feb", "compliant": 88, "violations": 3, "pending": 6 },
+      { "month": "Mar", "compliant": 85, "violations": 5, "pending": 7 },
+      { "month": "Apr", "compliant": 83, "violations": 4, "pending": 8 },
+      { "month": "May", "compliant": 80, "violations": 6, "pending": 9 },
+      { "month": "Jun", "compliant": 78, "violations": 7, "pending": 10 }
+    ]
+  },
+  "savedReports": [
+    { "id": "sr001", "name": "Q1 2026 Procurement Summary", "type": "procurement", "createdBy": "Bob Smith", "createdAt": "2026-04-05" },
+    { "id": "sr002", "name": "Vendor Risk Report - H1 2026", "type": "vendor", "createdBy": "Emma Davis", "createdAt": "2026-06-01" },
+    { "id": "sr003", "name": "Compliance Violations May 2026", "type": "compliance", "createdBy": "Emma Davis", "createdAt": "2026-06-02" }
+  ]
+}

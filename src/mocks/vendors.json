@@ -1,0 +1,122 @@
+[
+  {
+    "id": "v001",
+    "name": "TechSupply Corp",
+    "category": "Technology",
+    "status": "active",
+    "riskLevel": "low",
+    "country": "USA",
+    "contractValue": 450000,
+    "certificationExpiry": "2027-06-01",
+    "complianceScore": 92,
+    "contact": { "name": "John Carter", "email": "jcarter@techsupply.com", "phone": "+1-555-0101" },
+    "documents": [
+      { "id": "d1", "name": "ISO 27001 Certificate", "status": "valid", "expiry": "2027-06-01" },
+      { "id": "d2", "name": "SOC2 Report", "status": "valid", "expiry": "2027-01-15" }
+    ],
+    "history": [
+      { "date": "2026-01-10", "event": "Annual review completed", "user": "Bob Smith" },
+      { "date": "2025-06-15", "event": "Contract renewed", "user": "Alice Johnson" }
+    ],
+    "onboardedAt": "2023-03-15T08:00:00Z"
+  },
+  {
+    "id": "v002",
+    "name": "GlobalLogistics Ltd",
+    "category": "Logistics",
+    "status": "active",
+    "riskLevel": "medium",
+    "country": "UK",
+    "contractValue": 320000,
+    "certificationExpiry": "2026-09-30",
+    "complianceScore": 74,
+    "contact": { "name": "Sarah Mills", "email": "smills@globallogistics.co.uk", "phone": "+44-20-5555-0202" },
+    "documents": [
+      { "id": "d3", "name": "ISO 9001 Certificate", "status": "expiring", "expiry": "2026-09-30" },
+      { "id": "d4", "name": "Insurance Certificate", "status": "valid", "expiry": "2026-12-31" }
+    ],
+    "history": [
+      { "date": "2026-02-20", "event": "Risk assessment updated", "user": "Emma Davis" }
+    ],
+    "onboardedAt": "2022-07-20T08:00:00Z"
+  },
+  {
+    "id": "v003",
+    "name": "OfficeNation Inc",
+    "category": "Office Supplies",
+    "status": "active",
+    "riskLevel": "low",
+    "country": "Canada",
+    "contractValue": 85000,
+    "certificationExpiry": "2028-03-15",
+    "complianceScore": 88,
+    "contact": { "name": "Mike Thompson", "email": "mthompson@officenation.ca", "phone": "+1-416-555-0303" },
+    "documents": [
+      { "id": "d5", "name": "Business License", "status": "valid", "expiry": "2028-03-15" }
+    ],
+    "history": [
+      { "date": "2025-11-05", "event": "Onboarding completed", "user": "Alice Johnson" }
+    ],
+    "onboardedAt": "2025-11-05T08:00:00Z"
+  },
+  {
+    "id": "v004",
+    "name": "BuildRight Construction",
+    "category": "Construction",
+    "status": "under_review",
+    "riskLevel": "high",
+    "country": "India",
+    "contractValue": 1200000,
+    "certificationExpiry": "2026-05-01",
+    "complianceScore": 51,
+    "contact": { "name": "Raj Patel", "email": "rpatel@buildright.in", "phone": "+91-22-5555-0404" },
+    "documents": [
+      { "id": "d6", "name": "Safety Certification", "status": "expired", "expiry": "2026-05-01" },
+      { "id": "d7", "name": "Environmental Compliance", "status": "missing", "expiry": null }
+    ],
+    "history": [
+      { "date": "2026-05-10", "event": "Compliance violation flagged", "user": "Emma Davis" },
+      { "date": "2026-03-01", "event": "Contract signed", "user": "Bob Smith" }
+    ],
+    "onboardedAt": "2024-01-12T08:00:00Z"
+  },
+  {
+    "id": "v005",
+    "name": "CloudVault Services",
+    "category": "Technology",
+    "status": "active",
+    "riskLevel": "low",
+    "country": "Germany",
+    "contractValue": 670000,
+    "certificationExpiry": "2027-11-20",
+    "complianceScore": 96,
+    "contact": { "name": "Helga Müller", "email": "hmuller@cloudvault.de", "phone": "+49-30-5555-0505" },
+    "documents": [
+      { "id": "d8", "name": "GDPR Compliance Report", "status": "valid", "expiry": "2027-11-20" },
+      { "id": "d9", "name": "ISO 27001 Certificate", "status": "valid", "expiry": "2027-08-10" }
+    ],
+    "history": [
+      { "date": "2026-04-15", "event": "Annual audit passed", "user": "David Brown" }
+    ],
+    "onboardedAt": "2021-09-01T08:00:00Z"
+  },
+  {
+    "id": "v006",
+    "name": "FastFreight Co",
+    "category": "Logistics",
+    "status": "inactive",
+    "riskLevel": "high",
+    "country": "China",
+    "contractValue": 220000,
+    "certificationExpiry": "2025-12-31",
+    "complianceScore": 38,
+    "contact": { "name": "Wei Zhang", "email": "wzhang@fastfreight.cn", "phone": "+86-21-5555-0606" },
+    "documents": [
+      { "id": "d10", "name": "Export License", "status": "expired", "expiry": "2025-12-31" }
+    ],
+    "history": [
+      { "date": "2026-01-05", "event": "Contract suspended", "user": "Bob Smith" }
+    ],
+    "onboardedAt": "2020-05-18T08:00:00Z"
+  }
+]
