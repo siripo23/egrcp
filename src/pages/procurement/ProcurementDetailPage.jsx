@@ -63,7 +63,6 @@ function ProcurementDetailPage() {
         }
       />
 
-      {/* Overview Card */}
       <Card sx={{ mb: 2 }}>
         <CardContent sx={{ p: 3 }}>
           <Grid container spacing={3}>
@@ -86,7 +85,6 @@ function ProcurementDetailPage() {
         </CardContent>
       </Card>
 
-      {/* Tabs */}
       <Card>
         <Tabs value={tab} onChange={(_, v) => setTab(v)} sx={{ borderBottom: '1px solid', borderColor: 'divider', px: 2 }}>
           <Tab label="Overview" />
@@ -149,7 +147,6 @@ function ProcurementDetailPage() {
         </CardContent>
       </Card>
 
-      {/* Action Dialog */}
       <Dialog open={!!dialogType} onClose={() => setDialogType(null)} maxWidth="xs" fullWidth>
         <DialogTitle>{dialogType === 'approve' ? 'Approve Request' : 'Reject Request'}</DialogTitle>
         <DialogContent>

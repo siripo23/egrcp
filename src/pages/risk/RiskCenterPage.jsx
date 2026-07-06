@@ -53,14 +53,12 @@ function RiskCenterPage() {
       </Grid>
 
       <Grid container spacing={2} mb={3}>
-        {/* Risk Matrix */}
         <Grid item xs={12} lg={6}>
           <Card>
             <CardContent>
               <Typography variant="h6" fontWeight={600} mb={2}>Risk Heat Matrix</Typography>
               <Box sx={{ overflowX: 'auto' }}>
                 <Box sx={{ display: 'inline-block', minWidth: 400 }}>
-                  {/* Y-axis label */}
                   <Box display="flex" alignItems="flex-end" mb={0.5} pl={8}>
                     {[1,2,3,4,5].map(i => (
                       <Box key={i} width={70} textAlign="center">
@@ -83,7 +81,6 @@ function RiskCenterPage() {
           </Card>
         </Grid>
 
-        {/* Distribution Pie */}
         <Grid item xs={12} sm={6} lg={3}>
           <Card sx={{ height: '100%' }}>
             <CardContent>
@@ -101,7 +98,6 @@ function RiskCenterPage() {
           </Card>
         </Grid>
 
-        {/* Trend Chart */}
         <Grid item xs={12} sm={6} lg={3}>
           <Card sx={{ height: '100%' }}>
             <CardContent>
@@ -120,7 +116,6 @@ function RiskCenterPage() {
         </Grid>
       </Grid>
 
-      {/* Risk Register */}
       <Card>
         <CardContent>
           <Typography variant="h6" fontWeight={600} mb={2}>Risk Register</Typography>

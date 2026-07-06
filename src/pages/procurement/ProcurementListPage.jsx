@@ -33,7 +33,6 @@ function ProcurementListPage() {
         action={<Button variant="contained" startIcon={<AddIcon />} onClick={() => navigate('/procurement/new')}>New Request</Button>}
       />
 
-      {/* Filters */}
       <Card sx={{ mb: 2, p: 2 }}>
         <Box display="flex" gap={2} flexWrap="wrap" alignItems="center">
           <TextField size="small" placeholder="Search requests..." value={filters.search}
@@ -49,7 +48,6 @@ function ProcurementListPage() {
         </Box>
       </Card>
 
-      {/* Table */}
       <Card>
         <TableContainer>
           <Table>

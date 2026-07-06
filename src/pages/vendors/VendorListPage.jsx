@@ -66,7 +66,6 @@ function VendorListPage() {
     <Box>
       <SectionHeader title="Vendor Governance" subtitle="Monitor and manage all vendor relationships" />
 
-      {/* KPIs */}
       {kpis && (
         <Grid container spacing={2} mb={3}>
           <Grid item xs={6} sm={3}><KpiCard title="Total Vendors" value={kpis.total} icon={<StoreIcon sx={{ fontSize: 20 }} />} color="primary.main" /></Grid>
@@ -76,7 +75,6 @@ function VendorListPage() {
         </Grid>
       )}
 
-      {/* Filters */}
       <Card sx={{ p: 2, mb: 2 }}>
         <Box display="flex" gap={2} flexWrap="wrap">
           <TextField size="small" placeholder="Search vendors..." value={filters.search} onChange={e => handleFilter('search', e.target.value)}
@@ -90,7 +88,6 @@ function VendorListPage() {
         </Box>
       </Card>
 
-      {/* Vendor Grid */}
       <Grid container spacing={2}>
         {loading ? <Grid item xs={12}><Typography color="text.secondary" align="center" py={4}>Loading vendors...</Typography></Grid>
           : vendors.length === 0 ? <Grid item xs={12}><Typography color="text.secondary" align="center" py={4}>No vendors found</Typography></Grid>

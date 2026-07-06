@@ -8,7 +8,6 @@ const apiClient = axios.create({
   headers: { 'Content-Type': 'application/json' },
 })
 
-// Request Interceptor — attach auth token
 apiClient.interceptors.request.use(
   (config) => {
     const token = store.getState().auth.token
@@ -18,7 +17,6 @@ apiClient.interceptors.request.use(
   (error) => Promise.reject(error)
 )
 
-// Response Interceptor — handle errors globally
 apiClient.interceptors.response.use(
   (response) => response.data,
   (error) => {

@@ -43,7 +43,6 @@ function AppHeader({ height }) {
           </IconButton>
         </Tooltip>
 
-        {/* Search */}
         <Box sx={{ flex: 1, maxWidth: 480, mx: 2 }}>
           <Box sx={{ display: 'flex', alignItems: 'center', bgcolor: theme => alpha(theme.palette.text.primary, 0.06), borderRadius: 1.5, px: 1.5, py: 0.5, border: '1px solid transparent', '&:focus-within': { borderColor: 'primary.main', bgcolor: 'background.paper' } }}>
             <SearchIcon sx={{ fontSize: 18, color: 'text.secondary', mr: 1 }} />
@@ -54,14 +53,12 @@ function AppHeader({ height }) {
 
         <Box flex={1} />
 
-        {/* Theme Toggle */}
         <Tooltip title={`Switch to ${themeMode === 'light' ? 'dark' : 'light'} mode`}>
           <IconButton size="small" onClick={() => dispatch(toggleTheme())} sx={{ color: 'text.secondary' }}>
             {themeMode === 'dark' ? <LightModeIcon /> : <DarkModeIcon />}
           </IconButton>
         </Tooltip>
 
-        {/* Notifications */}
         <Tooltip title="Notifications">
           <IconButton size="small" onClick={() => navigate('/notifications')} sx={{ color: 'text.secondary' }}>
             <Badge badgeContent={unreadCount} color="error" max={9}>
@@ -70,7 +67,6 @@ function AppHeader({ height }) {
           </IconButton>
         </Tooltip>
 
-        {/* Profile */}
         <Tooltip title={user?.name || 'Profile'}>
           <IconButton size="small" onClick={e => setAnchorEl(e.currentTarget)} sx={{ ml: 0.5 }}>
             <Avatar sx={{ width: 32, height: 32, bgcolor: 'primary.main', fontSize: 13 }}>{user?.name?.charAt(0)}</Avatar>

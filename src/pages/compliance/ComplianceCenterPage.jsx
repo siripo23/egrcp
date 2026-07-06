@@ -32,7 +32,6 @@ function ComplianceCenterPage() {
       {violations.length > 0 && <Alert severity="error" sx={{ mb: 3 }}>⚠ {violations.length} compliance violation{violations.length > 1 ? 's' : ''} require immediate attention</Alert>}
 
       <Grid container spacing={2}>
-        {/* Violations */}
         <Grid item xs={12} lg={6}>
           <Card>
             <CardContent>
@@ -58,7 +57,6 @@ function ComplianceCenterPage() {
           </Card>
         </Grid>
 
-        {/* Expired / Expiring Certs */}
         <Grid item xs={12} lg={6}>
           <Card>
             <CardContent>
@@ -84,7 +82,6 @@ function ComplianceCenterPage() {
           </Card>
         </Grid>
 
-        {/* Missing Documents */}
         <Grid item xs={12}>
           <Card>
             <CardContent>

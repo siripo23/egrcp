@@ -37,7 +37,6 @@ function AppSidebar({ width, collapsedWidth }) {
 
   const drawerContent = useMemo(() => (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%', overflow: 'hidden' }}>
-      {/* Logo */}
       <Box sx={{ height: 64, display: 'flex', alignItems: 'center', px: sidebarCollapsed ? 1.5 : 2.5, borderBottom: '1px solid', borderColor: 'divider' }}>
         <Box sx={{ width: 32, height: 32, borderRadius: 1.5, bgcolor: 'primary.main', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
           <Typography sx={{ color: '#fff', fontWeight: 800, fontSize: 14 }}>eG</Typography>
@@ -50,7 +49,6 @@ function AppSidebar({ width, collapsedWidth }) {
         )}
       </Box>
 
-      {/* Nav */}
       <Box sx={{ flex: 1, overflowY: 'auto', overflowX: 'hidden', py: 1 }}>
         <List dense disablePadding>
           {navItems.map(item => {
@@ -77,7 +75,6 @@ function AppSidebar({ width, collapsedWidth }) {
         </List>
       </Box>
 
-      {/* User */}
       {user && (
         <Box sx={{ p: sidebarCollapsed ? 1 : 2, borderTop: '1px solid', borderColor: 'divider' }}>
           <Box display="flex" alignItems="center" gap={1.5}>

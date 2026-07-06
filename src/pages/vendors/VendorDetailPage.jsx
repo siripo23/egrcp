@@ -30,7 +30,6 @@ function VendorDetailPage() {
       <SectionHeader title={vendor.name} subtitle={`${vendor.category} · ${vendor.country}`}
         action={<StatusChip status={vendor.status} />} />
 
-      {/* Profile Header */}
       <Card sx={{ mb: 2 }}>
         <CardContent sx={{ p: 3 }}>
           <Box display="flex" gap={3} alignItems="center" flexWrap="wrap">

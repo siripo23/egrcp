@@ -9,7 +9,6 @@ import PageLoader from './components/common/PageLoader'
 import ProtectedRoute from './components/common/ProtectedRoute'
 import AppLayout from './components/layout/AppLayout'
 
-// Lazy-loaded pages (route-based code splitting)
 const LoginPage = lazy(() => import('./pages/auth/LoginPage'))
 const ForgotPasswordPage = lazy(() => import('./pages/auth/ForgotPasswordPage'))
 const ResetPasswordPage = lazy(() => import('./pages/auth/ResetPasswordPage'))
@@ -40,13 +39,11 @@ function App() {
         <BrowserRouter>
           <Suspense fallback={<PageLoader />}>
             <Routes>
-              {/* Public Routes */}
               <Route path="/login" element={<LoginPage />} />
               <Route path="/forgot-password" element={<ForgotPasswordPage />} />
               <Route path="/reset-password" element={<ResetPasswordPage />} />
               <Route path="/session-expired" element={<SessionExpiredPage />} />
 
-              {/* Protected Routes */}
               <Route element={<ProtectedRoute />}>
                 <Route element={<AppLayout />}>
                   <Route path="/dashboard" element={<DashboardPage />} />
@@ -65,7 +62,6 @@ function App() {
                 </Route>
               </Route>
 
-              {/* Redirects */}
               <Route path="/" element={<Navigate to="/dashboard" replace />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>

@@ -31,7 +31,6 @@ function LoginPage() {
   return (
     <Box sx={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', bgcolor: 'background.default', p: 2 }}>
       <Box sx={{ width: '100%', maxWidth: 440 }}>
-        {/* Logo */}
         <Box textAlign="center" mb={4}>
           <Box sx={{ width: 56, height: 56, borderRadius: 2, bgcolor: 'primary.main', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', mb: 2 }}>
             <LockOutlinedIcon sx={{ color: '#fff', fontSize: 28 }} />

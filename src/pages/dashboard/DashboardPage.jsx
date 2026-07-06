@@ -54,7 +54,6 @@ function DashboardPage() {
     <Box>
       <SectionHeader title="Executive Dashboard" subtitle="Business overview and key performance indicators" />
 
-      {/* KPI Cards */}
       <Grid container spacing={2} mb={3}>
         {kpiCards.map((card, i) => (
           <Grid item xs={12} sm={6} md={4} lg={3} key={i}>
@@ -64,7 +63,6 @@ function DashboardPage() {
       </Grid>
 
       <Grid container spacing={2} mb={3}>
-        {/* Procurement Trend */}
         <Grid item xs={12} lg={8}>
           <Card>
             <CardContent>
@@ -90,7 +88,6 @@ function DashboardPage() {
           </Card>
         </Grid>
 
-        {/* Risk Trend */}
         <Grid item xs={12} lg={4}>
           <Card sx={{ height: '100%' }}>
             <CardContent>
@@ -111,7 +108,6 @@ function DashboardPage() {
       </Grid>
 
       <Grid container spacing={2}>
-        {/* Department Spend */}
         <Grid item xs={12} md={6} lg={4}>
           <Card>
             <CardContent>
@@ -129,7 +125,6 @@ function DashboardPage() {
           </Card>
         </Grid>
 
-        {/* Activity Timeline */}
         <Grid item xs={12} md={6} lg={8}>
           <Card sx={{ height: '100%' }}>
             <CardContent>
