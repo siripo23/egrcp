@@ -2,8 +2,6 @@
 
 A production-grade enterprise SaaS frontend application built with React 19, Vite, Redux Toolkit, MUI, and Recharts.
 
-## 🚀 Quick Start
-
 ```bash
 npm run dev        # http://localhost:3000
 npm test           # Run all tests
